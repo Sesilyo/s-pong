@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://mm3p3f2od7i1"]
+
+[ext_resource type="Script" uid="uid://bv30lguyj4hrv" path="res://views/config_game.gd" id="1_35k76"]
+
+[sub_resource type="GDScript" id="GDScript_2wyx1"]
+script/source = "extends Button
+"
+
+[node name="ConfigGame" type="Node2D" unique_id=143267941]
+script = ExtResource("1_35k76")
+
+[node name="BackTitleScreenBtn" type="Button" parent="." unique_id=117212302]
+offset_left = 477.0
+offset_top = 578.0
+offset_right = 698.0
+offset_bottom = 627.0
+text = "Back to Title Screen"
+script = SubResource("GDScript_2wyx1")
+
+[connection signal="pressed" from="BackTitleScreenBtn" to="." method="_on_back_title_screen_btn_pressed"]
+[connection signal="pressed" from="BackTitleScreenBtn" to="BackTitleScreenBtn" method="_on_pressed"]

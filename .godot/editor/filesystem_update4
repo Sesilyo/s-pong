@@ -1,0 +1,6 @@
+res://main.gd
+res://main.tscn
+res://shared/paths_consts.gd
+res://views/config_game.tscn
+res://views/back_title_screen_btn.gd
+res://views/config_game.gd
