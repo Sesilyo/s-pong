@@ -5,3 +5,4 @@ class_name ScenePaths
 
 const MAIN_SCENE = "res://main.tscn"
 const CONFIG_GAME_SCENE = "res://views/config_game.tscn"
+const TWO_PLAYER_GAME   = "res://views/paddle_1.tscn"
